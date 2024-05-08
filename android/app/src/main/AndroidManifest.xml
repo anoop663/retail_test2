@@ -5,7 +5,7 @@
 
     <application
     
-        android:label="S-Helper"
+        android:label="S-Helper Pro"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         

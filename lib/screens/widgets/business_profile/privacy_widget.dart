@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:project_fourth/screens/widgets/homepage/bottom_navigation_widget.dart';
 
 class Privacy extends StatelessWidget {
-  const Privacy({Key? key}) : super(key: key);
+  const Privacy({super.key});
 
   @override
   Widget build(BuildContext context) {

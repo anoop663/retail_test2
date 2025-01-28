@@ -9,7 +9,7 @@ import 'package:project_fourth/screens/widgets/product_module/list_category_widg
 import 'package:project_fourth/screens/widgets/product_module/list_product_widget.dart';
 
 class BusinessCard extends StatefulWidget {
-  const BusinessCard({Key? key}) : super(key: key);
+  const BusinessCard({super.key});
 
   @override
   // ignore: library_private_types_in_public_api

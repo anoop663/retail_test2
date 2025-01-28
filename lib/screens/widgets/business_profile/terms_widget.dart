@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:project_fourth/screens/widgets/homepage/bottom_navigation_widget.dart';
 
 class Terms extends StatelessWidget {
-  const Terms({Key? key}) : super(key: key);
+  const Terms({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -4,7 +4,7 @@ import 'package:project_fourth/screens/widgets/sales_module/list_sales_widget.da
 import 'package:project_fourth/screens/widgets/sales_module/sales_controller_state.dart';
 
 class SalesDropdownAndTotal extends StatefulWidget {
-  const SalesDropdownAndTotal({Key? key}) : super(key: key);
+  const SalesDropdownAndTotal({super.key});
 
   @override
   // ignore: library_private_types_in_public_api

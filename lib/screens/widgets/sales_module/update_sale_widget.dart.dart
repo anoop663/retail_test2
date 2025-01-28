@@ -11,7 +11,7 @@ import 'package:provider/provider.dart';
 class UpdateSales extends StatefulWidget {
   final SalesModel? sales;
 
-  const UpdateSales({Key? key, this.sales}) : super(key: key);
+  const UpdateSales({super.key, this.sales});
 
   @override
   // ignore: library_private_types_in_public_api

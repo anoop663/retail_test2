@@ -8,7 +8,7 @@ import 'package:project_fourth/screens/widgets/sales_module/sales_model.dart';
 class AddSales1 extends StatefulWidget {
   final SalesModel? sales;
 
-  const AddSales1({Key? key, this.sales}) : super(key: key);
+  const AddSales1({super.key, this.sales});
 
   @override
   // ignore: library_private_types_in_public_api

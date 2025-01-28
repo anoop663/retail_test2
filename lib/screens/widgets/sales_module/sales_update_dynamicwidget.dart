@@ -9,8 +9,8 @@ import 'package:simple_barcode_scanner/simple_barcode_scanner.dart';
 
 class UpdateSalesDynamic extends StatefulWidget {
   const UpdateSalesDynamic({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   // ignore: library_private_types_in_public_api

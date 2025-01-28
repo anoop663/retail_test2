@@ -3,7 +3,7 @@ import 'package:project_fourth/screens/widgets/homepage/hive_services.dart';
 import 'package:project_fourth/screens/widgets/homepage/home_model.dart';
 
 class SalesGraphWidgetBackup1 extends StatefulWidget {
-  const SalesGraphWidgetBackup1({Key? key}) : super(key: key);
+  const SalesGraphWidgetBackup1({super.key});
 
   @override
   // ignore: library_private_types_in_public_api

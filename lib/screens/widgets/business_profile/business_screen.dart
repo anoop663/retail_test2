@@ -5,7 +5,7 @@ import 'package:project_fourth/screens/widgets/business_profile/business_model.d
 class BusinessProfile extends StatefulWidget {
   final RetailModel2? business;
 
-  const BusinessProfile({Key? key, this.business}) : super(key: key);
+  const BusinessProfile({super.key, this.business});
 
   @override
   // ignore: library_private_types_in_public_api

@@ -6,7 +6,7 @@ import 'package:project_fourth/screens/widgets/product_module/product_controller
 import 'package:project_fourth/screens/widgets/product_module/update_product_widget.dart';
 
 class OutofStock extends StatefulWidget {
-  const OutofStock({Key? key}) : super(key: key);
+  const OutofStock({super.key});
 
   @override
   // ignore: library_private_types_in_public_api

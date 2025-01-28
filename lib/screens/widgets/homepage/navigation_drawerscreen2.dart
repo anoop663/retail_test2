@@ -5,7 +5,7 @@ import 'package:project_fourth/screens/widgets/business_profile/privacy_widget.d
 import 'package:project_fourth/screens/widgets/business_profile/terms_widget.dart';
 
 class MyDrawer2 extends StatelessWidget {
-  const MyDrawer2({Key? key}) : super(key: key);
+  const MyDrawer2({super.key});
 
   @override
   Widget build(BuildContext context) {

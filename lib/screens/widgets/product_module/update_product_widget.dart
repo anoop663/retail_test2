@@ -18,7 +18,7 @@ import 'package:provider/provider.dart';
 class UpdateProducts extends StatefulWidget {
   final ProductModel? product;
 
-  const UpdateProducts({Key? key, this.product}) : super(key: key);
+  const UpdateProducts({super.key, this.product});
 
   @override
   // ignore: library_private_types_in_public_api

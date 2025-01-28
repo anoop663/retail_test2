@@ -22,7 +22,7 @@ import 'package:flutter/foundation.dart' show kIsWeb;
 class AddProducts extends StatefulWidget {
   final ProductModel? product;
 
-  const AddProducts({Key? key, this.product}) : super(key: key);
+  const AddProducts({super.key, this.product});
 
   @override
   // ignore: library_private_types_in_public_api

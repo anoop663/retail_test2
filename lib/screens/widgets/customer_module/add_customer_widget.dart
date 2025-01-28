@@ -8,7 +8,7 @@ import 'package:provider/provider.dart';
 class AddCustomer extends StatefulWidget {
   final CustomerModel? customer;
 
-  const AddCustomer({Key? key, this.customer}) : super(key: key);
+  const AddCustomer({super.key, this.customer});
 
   @override
   // ignore: library_private_types_in_public_api

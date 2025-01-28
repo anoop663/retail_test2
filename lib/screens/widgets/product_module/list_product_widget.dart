@@ -20,7 +20,7 @@ extension IterableExtension<T> on Iterable<T> {
 }
 
 class ListProducts extends StatefulWidget {
-  const ListProducts({Key? key}) : super(key: key);
+  const ListProducts({super.key});
 
   @override
   // ignore: library_private_types_in_public_api

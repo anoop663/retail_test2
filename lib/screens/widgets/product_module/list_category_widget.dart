@@ -6,7 +6,7 @@ import 'package:project_fourth/screens/widgets/product_module/product_model.dart
 import 'package:project_fourth/screens/widgets/product_module/product_controller.dart';
 
 class ListCategories extends StatefulWidget {
-  const ListCategories({Key? key}) : super(key: key);
+  const ListCategories({super.key});
 
   @override
   // ignore: library_private_types_in_public_api

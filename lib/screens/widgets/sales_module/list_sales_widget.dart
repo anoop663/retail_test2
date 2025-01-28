@@ -8,7 +8,7 @@ import 'package:project_fourth/screens/widgets/sales_module/sales_model.dart';
 import 'package:provider/provider.dart';
 
 class ListSales extends StatefulWidget {
-  const ListSales({Key? key}) : super(key: key);
+  const ListSales({super.key});
 
   @override
   // ignore: library_private_types_in_public_api

@@ -13,7 +13,7 @@ import 'package:provider/provider.dart';
 class AddSales extends StatefulWidget {
   final SalesModel? sales;
 
-  const AddSales({Key? key, this.sales}) : super(key: key);
+  const AddSales({super.key, this.sales});
 
   @override
   // ignore: library_private_types_in_public_api

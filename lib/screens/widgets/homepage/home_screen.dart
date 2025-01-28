@@ -11,7 +11,7 @@ import 'package:project_fourth/screens/widgets/product_module/add_product_widget
 import 'package:project_fourth/screens/widgets/product_module/outofstock_widget.dart';
 
 class HomePage extends StatelessWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {

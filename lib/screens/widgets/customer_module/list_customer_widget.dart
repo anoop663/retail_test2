@@ -5,7 +5,7 @@ import 'package:project_fourth/screens/widgets/customer_module/customer_model.da
 import 'package:project_fourth/screens/widgets/homepage/bottom_navigation_widget.dart';
 
 class ListCustomer extends StatefulWidget {
-  const ListCustomer({Key? key}) : super(key: key);
+  const ListCustomer({super.key});
 
   @override
   // ignore: library_private_types_in_public_api

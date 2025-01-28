@@ -9,7 +9,7 @@ import 'package:provider/provider.dart';
 class AddCategory extends StatefulWidget {
   final CategoryModel? category;
 
-  const AddCategory({Key? key, this.category}) : super(key: key);
+  const AddCategory({super.key, this.category});
 
   @override
   // ignore: library_private_types_in_public_api

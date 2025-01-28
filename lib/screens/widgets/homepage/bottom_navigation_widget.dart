@@ -7,8 +7,7 @@ import 'package:project_fourth/screens/widgets/product_module/list_product_widge
 class BottomNavigation extends StatefulWidget {
   final int initialIndex; // Index to be initially selected
 
-  const BottomNavigation({Key? key, required this.initialIndex})
-      : super(key: key);
+  const BottomNavigation({super.key, required this.initialIndex});
 
   @override
   // ignore: library_private_types_in_public_api
